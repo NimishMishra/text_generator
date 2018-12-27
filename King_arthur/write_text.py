@@ -7,7 +7,7 @@ import os
 corpus_int, vocab_to_int, int_to_vocab, token_dict = pickle.load(open('preprocess.p', mode = 'rb'))
 seq_length, save_dir = pickle.load(open('params.p', mode = 'rb'))
 
-
+save_dir = # Wherever the model is saved from previous file of training the model
 # Picking a random word
 
 def pick_word(probabilities, int_to_vocab):
